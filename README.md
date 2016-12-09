@@ -10,7 +10,7 @@ mkdir -p /data/
 
 Start docker.
 ```
-docker run -d -v /data/mysql:/var/lib/mysql -v /data/log:/var/log -v /data/cacti:/var/lib/cacti/rra -p 80:80 idle/cacti
+docker run -d -v /data/mysql:/var/lib/mysql -v /data/log:/var/log -v /data/cacti:/var/lib/cacti/rra -p 80:80 idle/cacti-1-minute
 ```
 
 
