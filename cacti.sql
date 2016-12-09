@@ -19,6 +19,11 @@
 -- Table structure for table `cdef`
 --
 
+create database cacti;
+grant all on cacti.* to cacti@localhost identified by 'cacti';
+USE cacti;
+
+
 DROP TABLE IF EXISTS `cdef`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
