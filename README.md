@@ -1,7 +1,7 @@
 # cacti
 USAGE
 
-Create directory for persistent data: accounts, emails, databases and logs.
+Create directory for persistent data: database, RRAs, logs.
 ```
 mkdir -p /data/ 
 ```
@@ -16,4 +16,18 @@ docker run -d -v /data/mysql:/var/lib/mysql -v /data/log -v /data/cacti:/var/lib
 
 
 After running container, you can access cacti here - http://yourhost/cacti, login/password = admin/admin(after first login it will be forced to change password).
+
+
+![](http://er.razumit.ru/cacti/disk.png)
+
+![](http://er.razumit.ru/cacti/nginx.png)
+
+![](http://er.razumit.ru/cacti/cpu.png)
+
+![](http://er.razumit.ru/cacti/mysql.png)
+
+
+
+
+
 
