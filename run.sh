@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 chown -R mysql /var/lib/mysql
 chown -R www-data /var/lib/cacti
